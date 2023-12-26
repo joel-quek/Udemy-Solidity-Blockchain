@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newString",
+						"type": "string"
+					}
+				],
+				"name": "updateString",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/2 Smart Money Deposit and Withdrawals/SampleContract.sol": "SampleContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/2 Smart Money Deposit and Withdrawals/SampleContract.sol": {
+			"keccak256": "0xe8d1be28d8fd6e9f2c0c8a4899ffce8f2f42549869e873e23113f8e8658afe00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eb942e54edcc16e6cdfbb5f341c7f7be87ef7ed8c1bd1535acbfdc8e9247a9ea",
+				"dweb:/ipfs/QmeAzxE267ByJVf91vrTKLwZUwnxyd7YZF17MZH94pFq8T"
+			]
+		}
+	},
+	"version": 1
+}
